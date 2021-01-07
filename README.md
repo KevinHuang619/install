@@ -1,6 +1,7 @@
 # install
 
 ## nvidia-driver and cuda 10.1
+
 ```shell
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
@@ -24,6 +25,12 @@ nvidia-docker run --ipc=host ...
 ```
 
 ## pytorch
+
 ```shell
 pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+```
+## soft link
+
+```shell
+ln -s /home/jupyter/Development/pantheon-lab/library/ stylegan2/
 ```
