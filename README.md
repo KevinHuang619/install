@@ -9,6 +9,9 @@ sudo apt-get install nvidia-418
 
 #Command to verify installation
 nvidia-smi
+
+# install nvcc
+sudo apt-get install nvidia-cuda-toolkit
 ```
 
 ## miniconda
